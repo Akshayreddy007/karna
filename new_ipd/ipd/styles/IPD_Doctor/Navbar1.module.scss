@@ -1,0 +1,132 @@
+.logobg {
+    background-color: #0030CC;
+    display: flex;
+    color: #fff;
+    padding: 8px;
+    width: 167px;
+    height: 54px;
+}
+.logobg1 {
+    background-color: #0030CC;
+    display: flex;
+    color: #fff;
+    padding: 8px;
+    width: 210px;
+    text-align: center;
+    justify-content: center;
+    height: 54px;
+}
+
+.themenavbar {
+    color: #0030CC;
+    font-weight: 600;
+    padding-left: 28px !important;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    align-items: center;
+    display: flex;
+
+}
+.themenavbar1{
+    color: #0030CC!important;
+    font-weight: 600;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.f28 {
+    font-size: 24px;
+    margin-right: 28px
+}
+
+.springfeild {
+    border: 1px solid #d0d0d0;
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 3px;
+    padding: 5px;
+    position: relative;
+    left: 25px;
+}
+
+.index {
+    z-index: 999;
+    position: relative;
+    left: 10px
+}
+
+@media (max-width:767px) {
+    .themenavbar {
+        color: #0030CC;
+        font-weight: 600;
+        padding-left: 5px !important;
+        font-size: 11px;
+    }
+
+
+
+    .logobg {
+        background-color: #0030CC;
+        display: flex;
+        color: #fff;
+        padding: 7px;
+        width: 120px;
+        height: 54px;
+    }
+
+    .f14 {
+        font-size: 11px !important;
+    }
+
+    .lgimg {
+        width: 95px;
+    }
+
+    .f14 {
+        font-size: 11px !important;
+    }
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1200px) {
+    .themenavbar {
+        color: #0030CC;
+        font-weight: 600;
+        padding-left: 10px !important;
+        font-size: 13px;
+    }
+
+    .f28 {
+        font-size: 20px;
+        margin-right: 20px;
+    }
+}
+.navbarfix{
+position: fixed!important;
+width: 100%;
+z-index: 99;
+}
+.bdr{
+border: 1px solid #D9D9D9;
+border-radius: 21px;
+}
+
+.bdrbtm{
+    border-bottom: 1px solid #D9D9D9;
+}
+.lt14{
+    line-height: 14px;
+}
+.ps_rel{
+right: 20px;
+position: relative;
+}
+.texttr2{
+    color: #214f72;
+    font-weight: 500;
+    line-height: 12px;
+}
+
+.br32{
+    border-radius: 25px;
+}

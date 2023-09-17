@@ -1,0 +1,29 @@
+.user_bg{
+background: #d9d9d966;
+}
+.user_ht{
+    max-height: 250px;
+    overflow: auto;
+}
+.userbdr_clr{
+    border-color: #fff!important;
+}
+.textinitial{
+    text-align: initial;
+    padding-top: 2px!important;
+}
+.wdth25{
+    width: 35%;
+}
+.wdth30{
+    width: 30%;
+}
+.ltht{
+    line-height: 35px;
+
+}
+@media (max-width:480px) {
+.wdth25 {
+    width: 75%!important;
+}
+}

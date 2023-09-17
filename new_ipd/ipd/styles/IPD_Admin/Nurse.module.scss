@@ -1,0 +1,70 @@
+.services_bg {
+    background: #F5F7FF !important;
+}
+.user_bg{
+    background: #d9d9d966;
+    }
+    .user_ht{
+        max-height: 250px;
+        overflow: auto;
+    }    
+
+    .userbdr_clr{
+        border-color: #fff!important;
+    }
+    .textinitial{
+        text-align: initial;
+        padding-top: 2px!important;
+    }
+    .wdth25{
+        width: 35%;
+    }
+    .wdth30{
+        width: 30%;
+    }
+    .ltht{
+        line-height: 35px;
+    
+    }
+    .minht112{
+        min-height: 112vh;
+    }
+    .plr230{
+        padding-left: 230px;
+        padding-right: 200px;
+    }
+    .textboxwdth44 {
+        width: 100% !important;
+        height: 40px !important;
+        margin: 0px 12px 5px !important;
+        font-size: 12px !important;
+        border: 1px solid #D9D9D9 !important;
+    }
+    .servicebtn {
+        padding: 8px 23px !important;
+        background: #0030CC !important;
+        border-radius: 40px !important;
+        font-size: 14px !important;
+    }
+    .services_input {
+        height: 44px;
+        border: 1px solid #909090ab;
+        border-radius: 8px;
+    }
+    
+    .services_border {
+        border-bottom: 1px solid #D9D9D9 !important;
+    }
+    .active{
+        color: #62B970;
+
+    }
+    @media (max-width:480px) {
+    .wdth25 {
+        width: 75%!important;
+    }
+    .plr230{
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+    }

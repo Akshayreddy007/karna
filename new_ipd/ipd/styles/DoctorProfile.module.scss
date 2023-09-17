@@ -1,0 +1,162 @@
+.abs {
+    position: absolute;
+    top: 12vw;
+    left: 17vw;
+}
+
+.profile_image1 {
+    width: -webkit-fill-available;
+    height: auto;
+    mix-blend-mode: luminosity;
+}
+
+.profile_image3 {
+    width: -webkit-fill-available;
+    height: 15vw;
+    background-image: url("../public/images/image40.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    mix-blend-mode: luminosity;
+}
+
+.w_10 {
+    width: 10%;
+    text-align: inherit;
+    border-right: 1px solid #efefef;
+    border-left: 1px solid #efefef;
+    padding-left: 12px !important;
+    min-height: 25vh;
+    height: 20vh;
+
+}
+
+.cdborder {
+    background: #FFFFFF;
+    border: 1px solid #62B970;
+    border-radius: 4px;
+    margin-right: 15px;
+    width: 16%;
+}
+
+.cdborder1 {
+    background: #FFFFFF;
+    border: 1px solid #925FF0;
+    border-radius: 4px;
+    width: 24%;
+}
+
+.consultbg {
+    background: rgba(98, 185, 112, 0.11);
+    border-radius: 10px;
+    width: fit-content;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-bottom: 4px;
+    padding-top: 2px;
+    padding-bottom: 1px;
+}
+
+.bdwdth {
+    border-width: 1px;
+}
+
+.bdleft {
+    border-left: 1px solid #efefef;
+}
+
+.bdr {
+    border: 1px solid whitesmoke;
+}
+
+@media screen and (min-device-width: 321px) and (max-device-width: 480px) {
+    .abs {
+        position: absolute;
+        top: 20vw;
+        left: 4vw !important;
+    }
+
+    .cdborder {
+        background: #FFFFFF;
+        border: 1px solid #62B970;
+        border-radius: 4px;
+        margin-right: 15px;
+        width: fit-content;
+    }
+
+    .cdborder1 {
+        background: #FFFFFF;
+        border: 1px solid #925FF0;
+        border-radius: 4px;
+        width: fit-content;
+    }
+
+    .fs_18 {
+        font-size: 17px;
+    }
+
+    .fs_13 {
+        font-size: 13px;
+    }
+}
+
+@media screen and (min-device-width: 481px) and (max-device-width: 767px) {
+    .abs {
+        position: absolute;
+        top: 17vw;
+        left: 3vw !important;
+    }
+
+    .cdborder {
+        background: #FFFFFF;
+        border: 1px solid #62B970;
+        border-radius: 4px;
+        margin-right: 15px;
+        width: fit-content;
+    }
+
+    .cdborder1 {
+        background: #FFFFFF;
+        border: 1px solid #925FF0;
+        border-radius: 4px;
+        width: fit-content;
+    }
+}
+
+@media screen and (min-device-width: 767px) and (max-device-width: 991px) {
+    .cdborder {
+        background: #FFFFFF;
+        border: 1px solid #62B970;
+        border-radius: 4px;
+        margin-right: 15px;
+        width: 25%;
+    }
+
+    .abs {
+        position: absolute;
+        top: 10vw;
+        left: 27vw;
+    }
+
+    .cdborder1 {
+        background: #FFFFFF;
+        border: 1px solid #925FF0;
+        border-radius: 4px;
+        width: 25%;
+    }
+}
+
+@media screen and (min-device-width: 1024px) and (max-device-width: 1200px) {
+    .abs {
+        position: absolute;
+        top: 12vw;
+        left: 22vw;
+    }
+}
+
+@media screen and (min-device-width: 1300px) and (max-device-width: 1400px) {
+    .abs {
+        position: absolute;
+        top: 12vw;
+        left: 20vw;
+    }
+}

@@ -1,0 +1,88 @@
+@import "./config";
+
+.sidebarbgcolor {
+    background: $theme2;
+    border-radius: $border-radius;
+    font-family: $font-family1;
+    // width: 23%;
+}
+
+.bg_theme {
+    background: $theme4;
+    border-radius: $border-radius;
+    padding: 15px 13px 15px 15px;
+    font-size: 12px;
+    font-family: $font-family1;
+
+}
+
+.mp_20 {
+    margin-left: 35px;
+    margin-right: 35px;
+    padding-top: 35px;
+    padding-bottom: 45px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    min-height: 95vh;
+    font-family: $font-family1;
+}
+
+.font_weight {
+    font-weight: 200;
+    color: #fff;
+    opacity: 0.9;
+    font-size: 14px;
+    font-family: $font-family1;
+}
+
+.ml-3 {
+    margin-left: 1rem;
+}
+
+@media (max-width: 480px) {
+    .mp_20 {
+        margin-left: 35px;
+        margin-right: 35px;
+        padding-top: 35px;
+        padding-bottom: 40px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        min-height: 99vh;
+        font-family: $font-family1;
+    }
+}
+
+@media (min-width: 991px) and (max-width: 1200px) {
+    .mp_20 {
+        margin-left: 35px;
+        margin-right: 35px;
+        padding-top: 35px;
+        padding-bottom: 45px;
+        margin-top: 15px;
+        margin-bottom: 22px;
+        min-height: 95vh;
+        font-family: $font-family1;
+    }
+}
+
+@media (min-width: 991px) and (max-width: 1200px) {
+    .mp_20 {
+        margin-left: 35px;
+        margin-right: 35px;
+        padding-top: 35px;
+        padding-bottom: 45px;
+        margin-top: 15px;
+        margin-bottom: 22px;
+        min-height: 95vh;
+        line-height: 61.92px;
+        font-family: $font-family1;
+    }
+}
+
+
+
+.f24 {
+    font-size: 26px;
+    line-height: 129%;
+    font-weight: 700
+}

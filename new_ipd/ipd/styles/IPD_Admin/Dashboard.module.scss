@@ -1,0 +1,119 @@
+.font{
+font-family: Gotham!important;
+}
+.b1shdw {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    font-family: 'Gotham';
+}
+.h44 {
+    height: 44px;
+    border: 1px solid #D9D9D9;
+    font-size: 12px !important;
+    font-family: Gotham;
+}
+.card3 {
+    max-width: 1600px;
+    height: 125px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 1rem;
+    gap: 1.2rem;
+}
+.f18{
+    font-size: 16px;
+    line-height: 23px;
+
+}
+.f21{
+    font-size: 22px;
+}
+.clr{
+    color: #62B970!important;
+}
+.box5{
+width: 13.07px!important;
+height: 13.07px!important;
+background-color: #AE00BD!important;
+}
+.box6{
+    width: 13.07px!important;
+    height: 13.07px!important;
+    background-color: #0B889D!important;
+}
+.box7{
+    width: 13.07px!important;
+    height: 13.07px!important;
+    background-color: #5E3A9E!important;
+    }
+    .box8{
+        width: 13.07px!important;
+        height: 13.07px!important;
+        background-color: #248AFD!important;
+    }
+    .bg1{
+        background: #F0F0F0!important;
+        font-family: 'Gotham';
+
+    }
+.f17{
+    font-size: 17px;
+}
+@media screen and (min-device-width: 1400px) and (max-device-width: 1800px) {
+    .card3 {
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+@media screen and (min-device-width: 1200px) and (max-device-width: 1400px) {
+    .card3 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .h44 {
+        height: 44px;
+        border: 1px solid #D9D9D9;
+        font-size: 12px!important;
+        font-family: Gotham;
+    }
+    .card3{
+        max-width: 1600px;
+        height: 83vh;
+        margin: 0 auto;
+        display: grid;
+        grid-gap: 1rem;
+        grid-gap: 1.2rem;
+        gap: 1.2rem;
+    }
+}
+@media screen and (min-device-width: 991px) and (max-device-width: 1200px) {
+    .card3 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+@media screen and (min-device-width: 768px) and (max-device-width: 991px) {
+    .card3 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .card3{
+        max-width: 1600px;
+        height: 83vh;
+        margin: 0 auto;
+        display: grid;
+        grid-gap: 1rem;
+        grid-gap: 1.2rem;
+        gap: 1.2rem;
+    }
+}
+@media screen and (min-device-width: 321px) and (max-device-width: 768px) {
+    .card3{
+        max-width: 1600px;
+        height: 98vh;
+        margin: 0 auto;
+        display: grid;
+        grid-gap: 1rem;
+        grid-gap: 1.2rem;
+        gap: 1.2rem;
+    }
+
+}

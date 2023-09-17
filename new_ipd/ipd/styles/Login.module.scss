@@ -1,0 +1,217 @@
+@import "./config";
+
+.login_button {
+  padding-top: 9px;
+  padding-bottom: 9px;
+  border-radius: 52px !important;
+  font-weight: 200;
+  font-size: 14px;
+  width: 101%;
+  color: #fff !important;
+  background: #0030cc !important;
+}
+
+@media (min-width: 1200px) and (max-width: 1800px) {
+
+  .menu {
+    width: 27%;
+    float: left;
+  }
+
+  .main {
+    width: 73%;
+    float: left;
+  }
+
+}
+
+.login_button:hover {
+  padding-top: 9px;
+  padding-bottom: 9px;
+  border-radius: 52px !important;
+  font-weight: 200;
+  font-size: 14px;
+  width: 101%;
+  color: #fff !important;
+  background: #0030cc !important;
+}
+
+.register_button {
+  font-size: 13px !important;
+  padding: 8px 17px 8px 17px !important;
+  border-radius: 52px !important;
+  font-weight: 200 !important;
+  width: auto;
+  background: #0030cc !important;
+}
+
+.register_button:hover {
+  color: #fff !important;
+}
+
+.verify_button {
+  padding: 12px 183px 12px 183px;
+  border-radius: 52px;
+  background: $theme2;
+}
+
+.mgauto {
+  margin: auto;
+  width: 35%;
+  padding-top: 5%;
+  font-family: Gotham;
+}
+
+.mgauto1 {
+  margin: auto;
+  width: 35%;
+  padding-top: 3%;
+}
+
+.smallclr {
+  color: $theme5;
+}
+
+// Mobile Screen CSS
+@media (max-width: 480px) {
+  .mgauto {
+    margin: auto;
+    width: 100%;
+    padding-top: 8%;
+  }
+
+  .login_button {
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border-radius: 52px !important;
+    font-weight: 200;
+    width: 101%;
+    background: #0030cc !important;
+  }
+
+  .mgauto1 {
+    margin: auto;
+    width: 100%;
+    padding-top: 3%;
+  }
+
+  .login_module {
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+    border-radius: 52px !important;
+    display: flex;
+    width: 101%;
+    border: 1px solid #c5c5c5 !important;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .mgauto1 {
+    margin: auto;
+    width: 70%;
+    padding-top: 3%;
+  }
+}
+
+//Medium Scale Devices Portrait CSS
+@media (min-width: 768px) and (max-width: 991px) {
+  .mgauto {
+    margin: auto;
+    width: 70%;
+    padding-top: 8%;
+  }
+
+  .register_button {
+    font-size: 10px !important;
+    padding: 8px 13px 8px 13px !important;
+    border-radius: 52px !important;
+    font-weight: 200 !important;
+    width: auto;
+    background: #0030cc !important;
+  }
+
+  .register_button:hover {
+    color: #fff !important;
+  }
+
+  .mp_20 {
+    margin-left: 35px;
+    margin-right: 35px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    margin-top: 15px;
+    margin-bottom: 22px;
+    min-height: 95vh;
+  }
+
+  .mgauto1 {
+    margin: auto;
+    width: 70%;
+    padding-top: 3%;
+  }
+
+  .login_module {
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+    border-radius: 52px !important;
+    display: flex;
+    width: 101%;
+    border: 1px solid #c5c5c5 !important;
+  }
+}
+
+//Medium Scale Devices Landscape CSS
+@media (min-width: 991px) and (max-width: 1200px) {
+  .mgauto {
+    margin: auto;
+    width: 56%;
+    padding-top: 8%;
+  }
+
+  .mgauto1 {
+    margin: auto;
+    width: 45%;
+    padding-top: 3%;
+  }
+
+  .login_module {
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+    border-radius: 52px !important;
+    display: flex;
+    width: 101%;
+    border: 1px solid #c5c5c5 !important;
+  }
+}
+
+.login_module {
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
+  border-radius: 52px !important;
+  display: flex;
+  width: 101%;
+  border: 1px solid #c5c5c5 !important;
+}
+
+.ht35{
+  height: 33px;
+  border: 1px solid #909090 !important;
+}
+
+.gender2 {
+  position: relative !important;
+  left: 17px !important;
+}
+
+.ht88{
+  min-height: 88vh;
+
+}
+.ftsize{
+  font-size:13.5px !important;
+  height: 38px !important;
+
+}
+.brcheckbx{
+  border: 1px solid #0030cc;
+}

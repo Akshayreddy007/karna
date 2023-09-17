@@ -1,0 +1,130 @@
+.bg3 {
+  background: #f0f0f0;
+}
+
+.text {
+  font-weight: 325;
+  font-size: 16px;
+  line-height: 19px;
+  color: #212121;
+}
+
+.text1 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 19px;
+}
+
+.pt_6 {
+  padding-top: 3.8rem !important;
+}
+
+.bdrbtm {
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.historytext {
+  letter-spacing: -0.05em;
+  text-transform: capitalize;
+  color: #0030cc;
+}
+
+.textbox {
+  height: 39px;
+  border: 1px solid #909090;
+  border-radius: 8px;
+}
+
+.next {
+  display: flex;
+  align-items: center;
+  padding: 7px 22px;
+  background: #0030cc;
+  border-radius: 40px;
+}
+
+.next:hover {
+  display: flex;
+  align-items: center;
+  padding: 7px 22px;
+  background: #0030cc !important;
+  color: #fff !important;
+  border-radius: 40px;
+}
+
+.previous {
+  font-size: 15px;
+  line-height: 100%;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.05em;
+  text-transform: capitalize;
+  background-color: #fff !important;
+  color: #0030cc !important;
+  border: #fff;
+}
+
+.previous:hover {
+  font-size: 15px;
+  line-height: 100%;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.05em;
+  text-transform: capitalize;
+  background-color: #fff;
+  color: #0030cc !important;
+  border: #fff;
+}
+
+.btmbdr1 {
+  border: 1px solid #d9d9d9;
+  border-radius: 8px;
+}
+
+.f14 {
+  font-size: 14px;
+}
+
+.f20 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.file_upload_box {
+  background: #f5f6ff;
+  border: 1px dashed #0030cc;
+  border-radius: 8px;
+  height: 100px;
+  padding: 0px 8px 8px 7px;
+}
+
+.browse {
+  background-color: #ebeefb;
+  color: #0030cc;
+  border-radius: 40px;
+  padding-left: 9px;
+  padding-right: 9px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 14px;
+}
+
+@media screen and (min-device-width: 1200px) and (max-device-width: 1800px) {
+  .pe_7 {
+    padding-right: 5rem;
+  }
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 991px) {
+  .text1 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+  }
+}
+
+@media screen and (min-device-width: 321px) and (max-device-width: 767px) {
+  .f13 {
+    font-size: 13px;
+  }
+}

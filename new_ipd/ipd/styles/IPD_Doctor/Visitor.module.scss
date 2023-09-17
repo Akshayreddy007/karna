@@ -1,0 +1,27 @@
+.bdr {
+    border: 1px solid #898989;
+    border-radius: 14px;
+}
+
+.bg1 {
+    background: #0B889D;
+    border-radius: 14px 14px 0px 0px;
+}
+
+.btr14 {
+    border-top-left-radius: 14px;
+}
+
+.bg2 {
+    background: #1C4070;
+    border-radius: 0px 0px 14px 14px;
+}
+
+.w22{
+    width:22%
+}
+@media screen and (min-device-width: 321px) and (max-device-width: 550px) {
+.w22{
+    width: 39%;
+}
+}

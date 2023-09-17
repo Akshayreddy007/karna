@@ -1,0 +1,99 @@
+.page-header {
+    position: fixed;
+    top: 0mm;
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: #fff;
+  }
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .column1 {
+    float: right;
+    width: 50%;
+    text-align: end;
+  }
+  .column2 {
+    float: left;
+    width: 50%;
+    text-align: initial;
+  }
+  .f14{
+ font-size: 14px;
+ line-height: 20px;
+ text-align: inherit;
+  }
+  .theadbg{
+  background: #0030CC;
+  color: #fff;
+  padding: 45px 50px 45px 50px;
+  font-size: 22px;
+  font-weight: 500;
+  }
+  .bg1{
+      background: #F0F0F0;
+  padding: 20px 35px 20px 35px;
+  }
+  .table{
+      border-collapse: collapse;
+  }
+  .f_600{
+font-weight: 600;
+  }
+  .p2{
+      padding-top: 20px;
+      padding-bottom: 20px;
+  }
+  .text_left{
+    text-align: left;
+  }
+  .bdrbtm{
+      border-bottom: 1px solid #898989;
+  }
+  .bdrtop{
+    border-top: 1px solid #898989;
+}
+ #id1 .table tbody tr:nth-child(odd) {
+      background-color: #f0f0f0;
+      padding: 7px 7px 7px 7px;
+    }
+    #id1 .table .tbody td{
+      padding: 7px 7px 7px 7px;
+    }
+  .text-left{
+      text-align: left;
+  }
+  .table > .thead > tr > th {
+      vertical-align: bottom;
+      border-bottom: 1px solid #898989;
+      border-top: 1px solid #898989;
+      font-weight: 600;
+      font-size: 14px;
+      white-space: nowrap;
+      padding: 7px 7px 7px 7px;
+    }
+    .pdlr{
+      padding: 0px 35px 0px 35px!important;
+      text-align: left;
+      border-bottom-width: 0px!important;
+    }
+    .ptb7{
+      padding-top: 7px;
+      padding-bottom: 7px;
+    }
+    .pb0{
+      padding-bottom: 0px;
+    }
+@media print {
+.thead {
+display: table-header-group;
+}
+
+.tfoot {
+display: table-footer-group;
+margin-top: 25px;
+}
+}
